@@ -97,13 +97,13 @@ if status =='1':
 #Score board
     final_score = primary_school_quiz(flag, n)
     score_percent = round(final_score/n,2)
-    if final_score >= 0.9:
+    if score_percent >= 0.9:
         print("Congratulations" +name+"! You’ll probably get an A tomorrow. Now go eat your dinner and go to sleep.")
 
-    elif final_score >= 0.7:
+    elif score_percent >= 0.7:
         print("You did well" +name+ "Ena, but I know you can do better.")
 
-    elif final_score < 0.7:
+    elif score_percent < 0.7:
         print("I think you need some more practice "+name+" .")
 
 
