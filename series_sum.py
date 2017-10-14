@@ -1,4 +1,9 @@
-#2.2
+"""
+Write a function called series_sum() that prompts the user for an non-negative integer n. If the user enters a negative
+integer the function should return None otherwise the function should return the sumer of the following series 1000 +
+1=12 + 1=22 + 1=32 + 1=42 + ::: + 1=n2 for the given integer n.
+"""
+
 def series_sum(n):
     if n < 0:
         print ("None")
